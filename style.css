@@ -1,3 +1,4 @@
-main {
-    background-image: url("bgdesert.jpg");
+body {
+    background-image: url("imagenes/millonario.jpg");
+    position: relative;
 }
