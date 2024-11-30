@@ -27,15 +27,48 @@
             </nav>
         </header>
         
-        <container class="col-6">
-                <div class="container text-center " >
-                    <div class="row row-cols-2" style=" row-gap: 25px; padding-top: 75px;">
-                        <div class="col" style="border-style: solid; ">Pregunta 1
-                            <div></div>
+        <container >
+                <div class="row  row justify-content-center" style="gap: 25px;  margin-top: 25px;" >
+                        
+                            <div class="col-5 " style="border-style: solid; ">
+                                <div>
+                                    <p class="text-center">¿Cuál es la capital de Francia?</p>
+                                    <div class="row justify-content-center">
+                                        <div class="col-6 text-center">
+                                            <button class="btn btn-primary w-100 mb-2" onclick="checkAnswer(this, false)">Madrid</button>
+                                            <button class="btn btn-primary w-100 mb-2" onclick="checkAnswer(this, true)">París</button>
+                                            <button class="btn btn-primary w-100 mb-2" onclick="checkAnswer(this, false)">Roma</button>
+                                            <button class="btn btn-primary w-100 mb-2" onclick="checkAnswer(this, false)">Berlín</button>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center mt-4">
+                                        <div class="col-6">
+                                            <div id="feedback" class="alert d-none text-center"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                         </div>
-                        <div class="col" style="border-style: solid;">Column</div>
-                        <div class="col" style="border-style: solid;">Column</div>
-                        <div class="col" style="border-style: solid;">Column</div>
+                        
+                            <div class="col-5" style="border-style: solid; row-gap: 25px; ">
+                                <div>
+                                    <p class="text-center">¿Cuál es la capital de Francia?</p>
+                                    <div class="row justify-content-center">
+                                        <div class="col-6 text-center">
+                                            <button class="btn btn-primary w-100 mb-2" onclick="checkAnswer(this, false)">Madrid</button>
+                                            <button class="btn btn-primary w-100 mb-2" onclick="checkAnswer(this, true)">París</button>
+                                            <button class="btn btn-primary w-100 mb-2" onclick="checkAnswer(this, false)">Roma</button>
+                                            <button class="btn btn-primary w-100 mb-2" onclick="checkAnswer(this, false)">Berlín</button>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center mt-4">
+                                        <div class="col-6">
+                                            <div id="feedback" class="alert d-none text-center"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                        </div>
                     </div>
                 </div>
         </container>
