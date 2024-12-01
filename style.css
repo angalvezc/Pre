@@ -1,0 +1,53 @@
+.btn-millonario {
+    background: linear-gradient(to bottom, #003366, #000033);
+    border: 3px solid #ffffff;
+    border-radius: 25px;
+    color: #ffcc00;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 85%; /* Botones amplios */
+    text-align: left;
+    position: relative;
+    box-shadow: inset 0 0 5px #000, 0 5px 15px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+}
+
+.btn-millonario::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 2px solid #ffcc00;
+    border-radius: 30px;
+    z-index: -1;
+    box-shadow: 0 0 10px #ffcc00;
+}
+
+.btn-millonario:hover {
+    background: linear-gradient(to bottom, #000033, #003366);
+    box-shadow: inset 0 0 5px #000, 0 7px 20px rgba(0, 0, 0, 0.9);
+    transform: scale(1.02);
+}
+
+.btn-millonario:active {
+    background: linear-gradient(to top, #000033, #003366);
+    box-shadow: inset 0 0 10px #000, 0 3px 10px rgba(0, 0, 0, 0.7);
+    transform: scale(0.98);
+}
+
+.container-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
